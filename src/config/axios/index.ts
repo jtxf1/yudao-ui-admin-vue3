@@ -10,6 +10,7 @@ const request = (option: any) => {
     ...otherOption,
     headers: {
       'Content-Type': headersType || default_headers,
+      tag: 'DESKTOP-4CBE7IL',
       ...headers
     }
   })
